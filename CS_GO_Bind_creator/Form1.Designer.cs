@@ -140,7 +140,14 @@
             this.btn_delall = new System.Windows.Forms.Button();
             this.btn_savetoclip = new System.Windows.Forms.Button();
             this.btn_getcommand = new System.Windows.Forms.Button();
-            this.clb_cmd = new System.Windows.Forms.CheckedListBox();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tp_pistols = new System.Windows.Forms.TabPage();
+            this.tp_rifles = new System.Windows.Forms.TabPage();
+            this.tp_mps = new System.Windows.Forms.TabPage();
+            this.tp_heavy = new System.Windows.Forms.TabPage();
+            this.tp_granades = new System.Windows.Forms.TabPage();
+            this.tp_gear = new System.Windows.Forms.TabPage();
+            this.tabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button_kp_minus
@@ -1107,7 +1114,7 @@
             // 
             // tB_Extra
             // 
-            this.tB_Extra.Location = new System.Drawing.Point(299, 45);
+            this.tB_Extra.Location = new System.Drawing.Point(688, 43);
             this.tB_Extra.Name = "tB_Extra";
             this.tB_Extra.Size = new System.Drawing.Size(214, 20);
             this.tB_Extra.TabIndex = 107;
@@ -1115,7 +1122,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(302, 29);
+            this.label1.Location = new System.Drawing.Point(691, 27);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(68, 13);
             this.label1.TabIndex = 108;
@@ -1123,7 +1130,7 @@
             // 
             // tB_end
             // 
-            this.tB_end.Location = new System.Drawing.Point(299, 315);
+            this.tB_end.Location = new System.Drawing.Point(688, 313);
             this.tB_end.Name = "tB_end";
             this.tB_end.Size = new System.Drawing.Size(214, 20);
             this.tB_end.TabIndex = 109;
@@ -1132,7 +1139,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(302, 299);
+            this.label2.Location = new System.Drawing.Point(691, 297);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(81, 13);
             this.label2.TabIndex = 110;
@@ -1140,7 +1147,7 @@
             // 
             // btn_delall
             // 
-            this.btn_delall.Location = new System.Drawing.Point(624, 305);
+            this.btn_delall.Location = new System.Drawing.Point(1013, 303);
             this.btn_delall.Name = "btn_delall";
             this.btn_delall.Size = new System.Drawing.Size(89, 38);
             this.btn_delall.TabIndex = 111;
@@ -1149,7 +1156,7 @@
             // 
             // btn_savetoclip
             // 
-            this.btn_savetoclip.Location = new System.Drawing.Point(529, 305);
+            this.btn_savetoclip.Location = new System.Drawing.Point(918, 303);
             this.btn_savetoclip.Name = "btn_savetoclip";
             this.btn_savetoclip.Size = new System.Drawing.Size(89, 38);
             this.btn_savetoclip.TabIndex = 114;
@@ -1160,7 +1167,7 @@
             // btn_getcommand
             // 
             this.btn_getcommand.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
-            this.btn_getcommand.Location = new System.Drawing.Point(319, 71);
+            this.btn_getcommand.Location = new System.Drawing.Point(708, 69);
             this.btn_getcommand.Name = "btn_getcommand";
             this.btn_getcommand.Size = new System.Drawing.Size(166, 38);
             this.btn_getcommand.TabIndex = 115;
@@ -1168,27 +1175,86 @@
             this.btn_getcommand.UseVisualStyleBackColor = true;
             this.btn_getcommand.Click += new System.EventHandler(this.btn_getcommand_Click);
             // 
-            // clb_cmd
+            // tabControl1
             // 
-            this.clb_cmd.CheckOnClick = true;
-            this.clb_cmd.FormattingEnabled = true;
-            this.clb_cmd.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.clb_cmd.Items.AddRange(new object[] {
-            "Buy AK47",
-            "Evac \"X\"",
-            "Say \"X\""});
-            this.clb_cmd.Location = new System.Drawing.Point(12, 12);
-            this.clb_cmd.Name = "clb_cmd";
-            this.clb_cmd.Size = new System.Drawing.Size(262, 334);
-            this.clb_cmd.TabIndex = 116;
-            this.clb_cmd.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
+            this.tabControl1.Controls.Add(this.tp_pistols);
+            this.tabControl1.Controls.Add(this.tp_rifles);
+            this.tabControl1.Controls.Add(this.tp_mps);
+            this.tabControl1.Controls.Add(this.tp_heavy);
+            this.tabControl1.Controls.Add(this.tp_granades);
+            this.tabControl1.Controls.Add(this.tp_gear);
+            this.tabControl1.Location = new System.Drawing.Point(13, 12);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(635, 347);
+            this.tabControl1.TabIndex = 116;
+            // 
+            // tp_pistols
+            // 
+            this.tp_pistols.Location = new System.Drawing.Point(4, 22);
+            this.tp_pistols.Name = "tp_pistols";
+            this.tp_pistols.Padding = new System.Windows.Forms.Padding(3);
+            this.tp_pistols.Size = new System.Drawing.Size(627, 321);
+            this.tp_pistols.TabIndex = 0;
+            this.tp_pistols.Text = "Pistols";
+            this.tp_pistols.UseVisualStyleBackColor = true;
+            // 
+            // tp_rifles
+            // 
+            this.tp_rifles.Location = new System.Drawing.Point(4, 22);
+            this.tp_rifles.Name = "tp_rifles";
+            this.tp_rifles.Padding = new System.Windows.Forms.Padding(3);
+            this.tp_rifles.Size = new System.Drawing.Size(627, 321);
+            this.tp_rifles.TabIndex = 1;
+            this.tp_rifles.Text = "Rifles";
+            this.tp_rifles.UseVisualStyleBackColor = true;
+            // 
+            // tp_mps
+            // 
+            this.tp_mps.Location = new System.Drawing.Point(4, 22);
+            this.tp_mps.Name = "tp_mps";
+            this.tp_mps.Padding = new System.Windows.Forms.Padding(3);
+            this.tp_mps.Size = new System.Drawing.Size(627, 321);
+            this.tp_mps.TabIndex = 2;
+            this.tp_mps.Text = "MPs";
+            this.tp_mps.UseVisualStyleBackColor = true;
+            // 
+            // tp_heavy
+            // 
+            this.tp_heavy.Location = new System.Drawing.Point(4, 22);
+            this.tp_heavy.Name = "tp_heavy";
+            this.tp_heavy.Padding = new System.Windows.Forms.Padding(3);
+            this.tp_heavy.Size = new System.Drawing.Size(627, 321);
+            this.tp_heavy.TabIndex = 3;
+            this.tp_heavy.Text = "Heavy";
+            this.tp_heavy.UseVisualStyleBackColor = true;
+            // 
+            // tp_granades
+            // 
+            this.tp_granades.Location = new System.Drawing.Point(4, 22);
+            this.tp_granades.Name = "tp_granades";
+            this.tp_granades.Padding = new System.Windows.Forms.Padding(3);
+            this.tp_granades.Size = new System.Drawing.Size(627, 321);
+            this.tp_granades.TabIndex = 4;
+            this.tp_granades.Text = "Granades";
+            this.tp_granades.UseVisualStyleBackColor = true;
+            // 
+            // tp_gear
+            // 
+            this.tp_gear.Location = new System.Drawing.Point(4, 22);
+            this.tp_gear.Name = "tp_gear";
+            this.tp_gear.Padding = new System.Windows.Forms.Padding(3);
+            this.tp_gear.Size = new System.Drawing.Size(627, 321);
+            this.tp_gear.TabIndex = 5;
+            this.tp_gear.Text = "Gear";
+            this.tp_gear.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1438, 671);
-            this.Controls.Add(this.clb_cmd);
+            this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.btn_getcommand);
             this.Controls.Add(this.btn_savetoclip);
             this.Controls.Add(this.btn_delall);
@@ -1305,6 +1371,7 @@
             this.Name = "Form1";
             this.Text = "CS:GO Bindcreator";
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.tabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1424,7 +1491,13 @@
         private System.Windows.Forms.Button btn_delall;
         private System.Windows.Forms.Button btn_savetoclip;
         private System.Windows.Forms.Button btn_getcommand;
-        private System.Windows.Forms.CheckedListBox clb_cmd;
+        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabPage tp_pistols;
+        private System.Windows.Forms.TabPage tp_rifles;
+        private System.Windows.Forms.TabPage tp_mps;
+        private System.Windows.Forms.TabPage tp_heavy;
+        private System.Windows.Forms.TabPage tp_granades;
+        private System.Windows.Forms.TabPage tp_gear;
     }
 }
 

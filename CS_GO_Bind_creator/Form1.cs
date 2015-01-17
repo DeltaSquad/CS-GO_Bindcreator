@@ -70,15 +70,15 @@ namespace CS_GO_Bind_creator
 
         private void btn_getcommand_Click(object sender, EventArgs e)
         {
-            if (clb_cmd.CheckedItems.Count != 0)
-            {
-                string s = "";
-                for (int x = 0; x <= clb_cmd.CheckedItems.Count - 1; x++)
-                {
-                    s = s + " " + clb_cmd.CheckedItems[x].ToString() + "\n";
-                }
-                tB_end.Text = s;
-            }
+            //if (clb_cmd.CheckedItems.Count != 0)
+            //{
+            //    string s = "";
+            //    for (int x = 0; x <= clb_cmd.CheckedItems.Count - 1; x++)
+            //    {
+            //        s = s + " " + clb_cmd.CheckedItems[x].ToString() + "\n";
+            //    }
+            //    tB_end.Text = s;
+            //}
 
         }
         #endregion

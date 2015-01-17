@@ -1303,7 +1303,7 @@
             this.Controls.Add(this.button_kp_minus);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
-            this.Text = "te";
+            this.Text = "CS:GO Bindcreator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

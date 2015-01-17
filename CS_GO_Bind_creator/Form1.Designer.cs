@@ -142,26 +142,64 @@
             this.btn_getcommand = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tp_pistols = new System.Windows.Forms.TabPage();
-            this.cb_dualb = new System.Windows.Forms.CheckBox();
-            this.cb_deagle = new System.Windows.Forms.CheckBox();
-            this.cb_p250 = new System.Windows.Forms.CheckBox();
-            this.cb_glock = new System.Windows.Forms.CheckBox();
             this.tp_rifles = new System.Windows.Forms.TabPage();
             this.tp_mps = new System.Windows.Forms.TabPage();
             this.tp_heavy = new System.Windows.Forms.TabPage();
             this.tp_granades = new System.Windows.Forms.TabPage();
             this.tp_gear = new System.Windows.Forms.TabPage();
+            this.tp_other = new System.Windows.Forms.TabPage();
+            this.tb_key = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.cb_usp = new System.Windows.Forms.CheckBox();
             this.cb_p2000 = new System.Windows.Forms.CheckBox();
             this.cb_cz75 = new System.Windows.Forms.CheckBox();
             this.cb_tecß = new System.Windows.Forms.CheckBox();
-            this.tb_key = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.tp_other = new System.Windows.Forms.TabPage();
-            this.label4 = new System.Windows.Forms.Label();
-            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.cb_dualb = new System.Windows.Forms.CheckBox();
+            this.cb_deagle = new System.Windows.Forms.CheckBox();
+            this.cb_p250 = new System.Windows.Forms.CheckBox();
+            this.cb_glock = new System.Windows.Forms.CheckBox();
+            this.cb_m4a1s = new System.Windows.Forms.CheckBox();
+            this.cb_scout = new System.Windows.Forms.CheckBox();
+            this.cb_awp = new System.Windows.Forms.CheckBox();
+            this.cb_m4a4 = new System.Windows.Forms.CheckBox();
+            this.cb_aug = new System.Windows.Forms.CheckBox();
+            this.cb_autoct = new System.Windows.Forms.CheckBox();
+            this.cb_famas = new System.Windows.Forms.CheckBox();
+            this.cb_ak47 = new System.Windows.Forms.CheckBox();
+            this.cb_sgg = new System.Windows.Forms.CheckBox();
+            this.cb_autot = new System.Windows.Forms.CheckBox();
+            this.cb_galil = new System.Windows.Forms.CheckBox();
+            this.cb_p90 = new System.Windows.Forms.CheckBox();
+            this.cb_mp9 = new System.Windows.Forms.CheckBox();
+            this.cb_mp7 = new System.Windows.Forms.CheckBox();
+            this.cb_ump45 = new System.Windows.Forms.CheckBox();
+            this.cb_ppbizon = new System.Windows.Forms.CheckBox();
+            this.cb_mac10 = new System.Windows.Forms.CheckBox();
+            this.cb_m249 = new System.Windows.Forms.CheckBox();
+            this.cb_nova = new System.Windows.Forms.CheckBox();
+            this.cb_swag7 = new System.Windows.Forms.CheckBox();
+            this.cb_negev = new System.Windows.Forms.CheckBox();
+            this.cb_xm = new System.Windows.Forms.CheckBox();
+            this.cb_sawedoff = new System.Windows.Forms.CheckBox();
+            this.cb_he = new System.Windows.Forms.CheckBox();
+            this.cb_decoy = new System.Windows.Forms.CheckBox();
+            this.cb_flash = new System.Windows.Forms.CheckBox();
+            this.cb_smoke = new System.Windows.Forms.CheckBox();
+            this.cb_molotov = new System.Windows.Forms.CheckBox();
+            this.cb_inc = new System.Windows.Forms.CheckBox();
+            this.cb_kevlar = new System.Windows.Forms.CheckBox();
+            this.cb_taser = new System.Windows.Forms.CheckBox();
+            this.cb_defuse = new System.Windows.Forms.CheckBox();
+            this.cb_kevlarhelm = new System.Windows.Forms.CheckBox();
             this.tabControl1.SuspendLayout();
             this.tp_pistols.SuspendLayout();
+            this.tp_rifles.SuspendLayout();
+            this.tp_mps.SuspendLayout();
+            this.tp_heavy.SuspendLayout();
+            this.tp_granades.SuspendLayout();
+            this.tp_gear.SuspendLayout();
             this.SuspendLayout();
             // 
             // button_kp_minus
@@ -1223,48 +1261,19 @@
             this.tp_pistols.Text = "Pistols";
             this.tp_pistols.UseVisualStyleBackColor = true;
             // 
-            // cb_dualb
-            // 
-            this.cb_dualb.AutoSize = true;
-            this.cb_dualb.Image = global::CS_GO_Bind_creator.Properties.Resources.dualb;
-            this.cb_dualb.Location = new System.Drawing.Point(4, 265);
-            this.cb_dualb.Name = "cb_dualb";
-            this.cb_dualb.Size = new System.Drawing.Size(81, 50);
-            this.cb_dualb.TabIndex = 4;
-            this.cb_dualb.UseVisualStyleBackColor = true;
-            // 
-            // cb_deagle
-            // 
-            this.cb_deagle.AutoSize = true;
-            this.cb_deagle.Image = global::CS_GO_Bind_creator.Properties.Resources.deagle;
-            this.cb_deagle.Location = new System.Drawing.Point(4, 182);
-            this.cb_deagle.Name = "cb_deagle";
-            this.cb_deagle.Size = new System.Drawing.Size(81, 50);
-            this.cb_deagle.TabIndex = 3;
-            this.cb_deagle.UseVisualStyleBackColor = true;
-            // 
-            // cb_p250
-            // 
-            this.cb_p250.AutoSize = true;
-            this.cb_p250.Image = global::CS_GO_Bind_creator.Properties.Resources.p250;
-            this.cb_p250.Location = new System.Drawing.Point(4, 91);
-            this.cb_p250.Name = "cb_p250";
-            this.cb_p250.Size = new System.Drawing.Size(81, 50);
-            this.cb_p250.TabIndex = 2;
-            this.cb_p250.UseVisualStyleBackColor = true;
-            // 
-            // cb_glock
-            // 
-            this.cb_glock.AutoSize = true;
-            this.cb_glock.Image = global::CS_GO_Bind_creator.Properties.Resources.glock;
-            this.cb_glock.Location = new System.Drawing.Point(4, 9);
-            this.cb_glock.Name = "cb_glock";
-            this.cb_glock.Size = new System.Drawing.Size(81, 50);
-            this.cb_glock.TabIndex = 1;
-            this.cb_glock.UseVisualStyleBackColor = true;
-            // 
             // tp_rifles
             // 
+            this.tp_rifles.Controls.Add(this.cb_m4a1s);
+            this.tp_rifles.Controls.Add(this.cb_scout);
+            this.tp_rifles.Controls.Add(this.cb_awp);
+            this.tp_rifles.Controls.Add(this.cb_m4a4);
+            this.tp_rifles.Controls.Add(this.cb_aug);
+            this.tp_rifles.Controls.Add(this.cb_autoct);
+            this.tp_rifles.Controls.Add(this.cb_famas);
+            this.tp_rifles.Controls.Add(this.cb_ak47);
+            this.tp_rifles.Controls.Add(this.cb_sgg);
+            this.tp_rifles.Controls.Add(this.cb_autot);
+            this.tp_rifles.Controls.Add(this.cb_galil);
             this.tp_rifles.Location = new System.Drawing.Point(4, 22);
             this.tp_rifles.Name = "tp_rifles";
             this.tp_rifles.Padding = new System.Windows.Forms.Padding(3);
@@ -1275,6 +1284,12 @@
             // 
             // tp_mps
             // 
+            this.tp_mps.Controls.Add(this.cb_p90);
+            this.tp_mps.Controls.Add(this.cb_mp9);
+            this.tp_mps.Controls.Add(this.cb_mp7);
+            this.tp_mps.Controls.Add(this.cb_ump45);
+            this.tp_mps.Controls.Add(this.cb_ppbizon);
+            this.tp_mps.Controls.Add(this.cb_mac10);
             this.tp_mps.Location = new System.Drawing.Point(4, 22);
             this.tp_mps.Name = "tp_mps";
             this.tp_mps.Padding = new System.Windows.Forms.Padding(3);
@@ -1285,6 +1300,12 @@
             // 
             // tp_heavy
             // 
+            this.tp_heavy.Controls.Add(this.cb_xm);
+            this.tp_heavy.Controls.Add(this.cb_sawedoff);
+            this.tp_heavy.Controls.Add(this.cb_m249);
+            this.tp_heavy.Controls.Add(this.cb_nova);
+            this.tp_heavy.Controls.Add(this.cb_swag7);
+            this.tp_heavy.Controls.Add(this.cb_negev);
             this.tp_heavy.Location = new System.Drawing.Point(4, 22);
             this.tp_heavy.Name = "tp_heavy";
             this.tp_heavy.Padding = new System.Windows.Forms.Padding(3);
@@ -1295,6 +1316,12 @@
             // 
             // tp_granades
             // 
+            this.tp_granades.Controls.Add(this.cb_smoke);
+            this.tp_granades.Controls.Add(this.cb_molotov);
+            this.tp_granades.Controls.Add(this.cb_inc);
+            this.tp_granades.Controls.Add(this.cb_he);
+            this.tp_granades.Controls.Add(this.cb_decoy);
+            this.tp_granades.Controls.Add(this.cb_flash);
             this.tp_granades.Location = new System.Drawing.Point(4, 22);
             this.tp_granades.Name = "tp_granades";
             this.tp_granades.Padding = new System.Windows.Forms.Padding(3);
@@ -1305,6 +1332,10 @@
             // 
             // tp_gear
             // 
+            this.tp_gear.Controls.Add(this.cb_kevlar);
+            this.tp_gear.Controls.Add(this.cb_taser);
+            this.tp_gear.Controls.Add(this.cb_defuse);
+            this.tp_gear.Controls.Add(this.cb_kevlarhelm);
             this.tp_gear.Location = new System.Drawing.Point(4, 22);
             this.tp_gear.Name = "tp_gear";
             this.tp_gear.Padding = new System.Windows.Forms.Padding(3);
@@ -1312,6 +1343,49 @@
             this.tp_gear.TabIndex = 5;
             this.tp_gear.Text = "Gear";
             this.tp_gear.UseVisualStyleBackColor = true;
+            // 
+            // tp_other
+            // 
+            this.tp_other.Location = new System.Drawing.Point(4, 22);
+            this.tp_other.Name = "tp_other";
+            this.tp_other.Padding = new System.Windows.Forms.Padding(3);
+            this.tp_other.Size = new System.Drawing.Size(627, 321);
+            this.tp_other.TabIndex = 6;
+            this.tp_other.Text = "Other";
+            this.tp_other.UseVisualStyleBackColor = true;
+            // 
+            // tb_key
+            // 
+            this.tb_key.Location = new System.Drawing.Point(688, 155);
+            this.tb_key.Name = "tb_key";
+            this.tb_key.Size = new System.Drawing.Size(44, 20);
+            this.tb_key.TabIndex = 117;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(695, 139);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(28, 13);
+            this.label3.TabIndex = 118;
+            this.label3.Text = "KEY";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(691, 178);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(108, 13);
+            this.label4.TabIndex = 119;
+            this.label4.Text = "Commands you want:";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(688, 194);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(319, 96);
+            this.richTextBox1.TabIndex = 120;
+            this.richTextBox1.Text = "";
             // 
             // cb_usp
             // 
@@ -1353,48 +1427,376 @@
             this.cb_tecß.TabIndex = 5;
             this.cb_tecß.UseVisualStyleBackColor = true;
             // 
-            // tb_key
+            // cb_dualb
             // 
-            this.tb_key.Location = new System.Drawing.Point(688, 155);
-            this.tb_key.Name = "tb_key";
-            this.tb_key.Size = new System.Drawing.Size(44, 20);
-            this.tb_key.TabIndex = 117;
+            this.cb_dualb.AutoSize = true;
+            this.cb_dualb.Image = global::CS_GO_Bind_creator.Properties.Resources.dualb;
+            this.cb_dualb.Location = new System.Drawing.Point(4, 265);
+            this.cb_dualb.Name = "cb_dualb";
+            this.cb_dualb.Size = new System.Drawing.Size(81, 50);
+            this.cb_dualb.TabIndex = 4;
+            this.cb_dualb.UseVisualStyleBackColor = true;
             // 
-            // label3
+            // cb_deagle
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(695, 139);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(28, 13);
-            this.label3.TabIndex = 118;
-            this.label3.Text = "KEY";
+            this.cb_deagle.AutoSize = true;
+            this.cb_deagle.Image = global::CS_GO_Bind_creator.Properties.Resources.deagle;
+            this.cb_deagle.Location = new System.Drawing.Point(4, 182);
+            this.cb_deagle.Name = "cb_deagle";
+            this.cb_deagle.Size = new System.Drawing.Size(81, 50);
+            this.cb_deagle.TabIndex = 3;
+            this.cb_deagle.UseVisualStyleBackColor = true;
             // 
-            // tp_other
+            // cb_p250
             // 
-            this.tp_other.Location = new System.Drawing.Point(4, 22);
-            this.tp_other.Name = "tp_other";
-            this.tp_other.Padding = new System.Windows.Forms.Padding(3);
-            this.tp_other.Size = new System.Drawing.Size(627, 321);
-            this.tp_other.TabIndex = 6;
-            this.tp_other.Text = "Other";
-            this.tp_other.UseVisualStyleBackColor = true;
+            this.cb_p250.AutoSize = true;
+            this.cb_p250.Image = global::CS_GO_Bind_creator.Properties.Resources.p250;
+            this.cb_p250.Location = new System.Drawing.Point(4, 91);
+            this.cb_p250.Name = "cb_p250";
+            this.cb_p250.Size = new System.Drawing.Size(81, 50);
+            this.cb_p250.TabIndex = 2;
+            this.cb_p250.UseVisualStyleBackColor = true;
             // 
-            // label4
+            // cb_glock
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(691, 178);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(108, 13);
-            this.label4.TabIndex = 119;
-            this.label4.Text = "Commands you want:";
+            this.cb_glock.AutoSize = true;
+            this.cb_glock.Image = global::CS_GO_Bind_creator.Properties.Resources.glock;
+            this.cb_glock.Location = new System.Drawing.Point(4, 9);
+            this.cb_glock.Name = "cb_glock";
+            this.cb_glock.Size = new System.Drawing.Size(81, 50);
+            this.cb_glock.TabIndex = 1;
+            this.cb_glock.UseVisualStyleBackColor = true;
             // 
-            // richTextBox1
+            // cb_m4a1s
             // 
-            this.richTextBox1.Location = new System.Drawing.Point(688, 194);
-            this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(319, 96);
-            this.richTextBox1.TabIndex = 120;
-            this.richTextBox1.Text = "";
+            this.cb_m4a1s.AutoSize = true;
+            this.cb_m4a1s.Image = global::CS_GO_Bind_creator.Properties.Resources.m4a1s;
+            this.cb_m4a1s.Location = new System.Drawing.Point(224, 135);
+            this.cb_m4a1s.Name = "cb_m4a1s";
+            this.cb_m4a1s.Size = new System.Drawing.Size(81, 50);
+            this.cb_m4a1s.TabIndex = 11;
+            this.cb_m4a1s.UseVisualStyleBackColor = true;
+            // 
+            // cb_scout
+            // 
+            this.cb_scout.AutoSize = true;
+            this.cb_scout.Image = global::CS_GO_Bind_creator.Properties.Resources.ssg08;
+            this.cb_scout.Location = new System.Drawing.Point(436, 95);
+            this.cb_scout.Name = "cb_scout";
+            this.cb_scout.Size = new System.Drawing.Size(81, 50);
+            this.cb_scout.TabIndex = 10;
+            this.cb_scout.UseVisualStyleBackColor = true;
+            // 
+            // cb_awp
+            // 
+            this.cb_awp.AutoSize = true;
+            this.cb_awp.Image = global::CS_GO_Bind_creator.Properties.Resources.awp;
+            this.cb_awp.Location = new System.Drawing.Point(436, 180);
+            this.cb_awp.Name = "cb_awp";
+            this.cb_awp.Size = new System.Drawing.Size(81, 50);
+            this.cb_awp.TabIndex = 9;
+            this.cb_awp.UseVisualStyleBackColor = true;
+            // 
+            // cb_m4a4
+            // 
+            this.cb_m4a4.AutoSize = true;
+            this.cb_m4a4.Image = global::CS_GO_Bind_creator.Properties.Resources.m4a4;
+            this.cb_m4a4.Location = new System.Drawing.Point(224, 72);
+            this.cb_m4a4.Name = "cb_m4a4";
+            this.cb_m4a4.Size = new System.Drawing.Size(81, 50);
+            this.cb_m4a4.TabIndex = 8;
+            this.cb_m4a4.UseVisualStyleBackColor = true;
+            // 
+            // cb_aug
+            // 
+            this.cb_aug.AutoSize = true;
+            this.cb_aug.Image = global::CS_GO_Bind_creator.Properties.Resources.aug;
+            this.cb_aug.Location = new System.Drawing.Point(224, 198);
+            this.cb_aug.Name = "cb_aug";
+            this.cb_aug.Size = new System.Drawing.Size(81, 50);
+            this.cb_aug.TabIndex = 7;
+            this.cb_aug.UseVisualStyleBackColor = true;
+            // 
+            // cb_autoct
+            // 
+            this.cb_autoct.AutoSize = true;
+            this.cb_autoct.Image = global::CS_GO_Bind_creator.Properties.Resources.scar20;
+            this.cb_autoct.Location = new System.Drawing.Point(224, 261);
+            this.cb_autoct.Name = "cb_autoct";
+            this.cb_autoct.Size = new System.Drawing.Size(81, 50);
+            this.cb_autoct.TabIndex = 6;
+            this.cb_autoct.UseVisualStyleBackColor = true;
+            // 
+            // cb_famas
+            // 
+            this.cb_famas.AutoSize = true;
+            this.cb_famas.Image = global::CS_GO_Bind_creator.Properties.Resources.famas;
+            this.cb_famas.Location = new System.Drawing.Point(224, 9);
+            this.cb_famas.Name = "cb_famas";
+            this.cb_famas.Size = new System.Drawing.Size(81, 50);
+            this.cb_famas.TabIndex = 5;
+            this.cb_famas.UseVisualStyleBackColor = true;
+            // 
+            // cb_ak47
+            // 
+            this.cb_ak47.AutoSize = true;
+            this.cb_ak47.Image = global::CS_GO_Bind_creator.Properties.Resources.ak47;
+            this.cb_ak47.Location = new System.Drawing.Point(6, 94);
+            this.cb_ak47.Name = "cb_ak47";
+            this.cb_ak47.Size = new System.Drawing.Size(81, 50);
+            this.cb_ak47.TabIndex = 4;
+            this.cb_ak47.UseVisualStyleBackColor = true;
+            // 
+            // cb_sgg
+            // 
+            this.cb_sgg.AutoSize = true;
+            this.cb_sgg.Image = global::CS_GO_Bind_creator.Properties.Resources.sg553;
+            this.cb_sgg.Location = new System.Drawing.Point(6, 179);
+            this.cb_sgg.Name = "cb_sgg";
+            this.cb_sgg.Size = new System.Drawing.Size(81, 50);
+            this.cb_sgg.TabIndex = 3;
+            this.cb_sgg.UseVisualStyleBackColor = true;
+            this.cb_sgg.CheckedChanged += new System.EventHandler(this.checkBox3_CheckedChanged);
+            // 
+            // cb_autot
+            // 
+            this.cb_autot.AutoSize = true;
+            this.cb_autot.Image = global::CS_GO_Bind_creator.Properties.Resources.g3sg1;
+            this.cb_autot.Location = new System.Drawing.Point(6, 264);
+            this.cb_autot.Name = "cb_autot";
+            this.cb_autot.Size = new System.Drawing.Size(81, 50);
+            this.cb_autot.TabIndex = 2;
+            this.cb_autot.UseVisualStyleBackColor = true;
+            // 
+            // cb_galil
+            // 
+            this.cb_galil.AutoSize = true;
+            this.cb_galil.Image = global::CS_GO_Bind_creator.Properties.Resources.galil;
+            this.cb_galil.Location = new System.Drawing.Point(6, 9);
+            this.cb_galil.Name = "cb_galil";
+            this.cb_galil.Size = new System.Drawing.Size(81, 50);
+            this.cb_galil.TabIndex = 0;
+            this.cb_galil.UseVisualStyleBackColor = true;
+            // 
+            // cb_p90
+            // 
+            this.cb_p90.AutoSize = true;
+            this.cb_p90.Image = global::CS_GO_Bind_creator.Properties.Resources.p90;
+            this.cb_p90.Location = new System.Drawing.Point(532, 93);
+            this.cb_p90.Name = "cb_p90";
+            this.cb_p90.Size = new System.Drawing.Size(81, 50);
+            this.cb_p90.TabIndex = 12;
+            this.cb_p90.UseVisualStyleBackColor = true;
+            // 
+            // cb_mp9
+            // 
+            this.cb_mp9.AutoSize = true;
+            this.cb_mp9.Image = global::CS_GO_Bind_creator.Properties.Resources.mp9;
+            this.cb_mp9.Location = new System.Drawing.Point(532, 8);
+            this.cb_mp9.Name = "cb_mp9";
+            this.cb_mp9.Size = new System.Drawing.Size(81, 50);
+            this.cb_mp9.TabIndex = 9;
+            this.cb_mp9.UseVisualStyleBackColor = true;
+            // 
+            // cb_mp7
+            // 
+            this.cb_mp7.AutoSize = true;
+            this.cb_mp7.Image = global::CS_GO_Bind_creator.Properties.Resources.mp7;
+            this.cb_mp7.Location = new System.Drawing.Point(6, 93);
+            this.cb_mp7.Name = "cb_mp7";
+            this.cb_mp7.Size = new System.Drawing.Size(81, 50);
+            this.cb_mp7.TabIndex = 8;
+            this.cb_mp7.UseVisualStyleBackColor = true;
+            // 
+            // cb_ump45
+            // 
+            this.cb_ump45.AutoSize = true;
+            this.cb_ump45.Image = global::CS_GO_Bind_creator.Properties.Resources.ump45;
+            this.cb_ump45.Location = new System.Drawing.Point(6, 178);
+            this.cb_ump45.Name = "cb_ump45";
+            this.cb_ump45.Size = new System.Drawing.Size(81, 50);
+            this.cb_ump45.TabIndex = 7;
+            this.cb_ump45.UseVisualStyleBackColor = true;
+            // 
+            // cb_ppbizon
+            // 
+            this.cb_ppbizon.AutoSize = true;
+            this.cb_ppbizon.Image = global::CS_GO_Bind_creator.Properties.Resources.ppbizon;
+            this.cb_ppbizon.Location = new System.Drawing.Point(6, 263);
+            this.cb_ppbizon.Name = "cb_ppbizon";
+            this.cb_ppbizon.Size = new System.Drawing.Size(81, 50);
+            this.cb_ppbizon.TabIndex = 6;
+            this.cb_ppbizon.UseVisualStyleBackColor = true;
+            // 
+            // cb_mac10
+            // 
+            this.cb_mac10.AutoSize = true;
+            this.cb_mac10.Image = global::CS_GO_Bind_creator.Properties.Resources.mac10;
+            this.cb_mac10.Location = new System.Drawing.Point(6, 8);
+            this.cb_mac10.Name = "cb_mac10";
+            this.cb_mac10.Size = new System.Drawing.Size(81, 50);
+            this.cb_mac10.TabIndex = 5;
+            this.cb_mac10.UseVisualStyleBackColor = true;
+            // 
+            // cb_m249
+            // 
+            this.cb_m249.AutoSize = true;
+            this.cb_m249.Image = global::CS_GO_Bind_creator.Properties.Resources.m249;
+            this.cb_m249.Location = new System.Drawing.Point(6, 93);
+            this.cb_m249.Name = "cb_m249";
+            this.cb_m249.Size = new System.Drawing.Size(81, 50);
+            this.cb_m249.TabIndex = 12;
+            this.cb_m249.UseVisualStyleBackColor = true;
+            // 
+            // cb_nova
+            // 
+            this.cb_nova.AutoSize = true;
+            this.cb_nova.Image = global::CS_GO_Bind_creator.Properties.Resources.nova;
+            this.cb_nova.Location = new System.Drawing.Point(6, 178);
+            this.cb_nova.Name = "cb_nova";
+            this.cb_nova.Size = new System.Drawing.Size(81, 50);
+            this.cb_nova.TabIndex = 11;
+            this.cb_nova.UseVisualStyleBackColor = true;
+            // 
+            // cb_swag7
+            // 
+            this.cb_swag7.AutoSize = true;
+            this.cb_swag7.Image = global::CS_GO_Bind_creator.Properties.Resources.swag7;
+            this.cb_swag7.Location = new System.Drawing.Point(6, 263);
+            this.cb_swag7.Name = "cb_swag7";
+            this.cb_swag7.Size = new System.Drawing.Size(81, 50);
+            this.cb_swag7.TabIndex = 10;
+            this.cb_swag7.UseVisualStyleBackColor = true;
+            // 
+            // cb_negev
+            // 
+            this.cb_negev.AutoSize = true;
+            this.cb_negev.Image = global::CS_GO_Bind_creator.Properties.Resources.negev;
+            this.cb_negev.Location = new System.Drawing.Point(6, 8);
+            this.cb_negev.Name = "cb_negev";
+            this.cb_negev.Size = new System.Drawing.Size(81, 50);
+            this.cb_negev.TabIndex = 9;
+            this.cb_negev.UseVisualStyleBackColor = true;
+            // 
+            // cb_xm
+            // 
+            this.cb_xm.AutoSize = true;
+            this.cb_xm.Image = global::CS_GO_Bind_creator.Properties.Resources.xm1014;
+            this.cb_xm.Location = new System.Drawing.Point(532, 93);
+            this.cb_xm.Name = "cb_xm";
+            this.cb_xm.Size = new System.Drawing.Size(81, 50);
+            this.cb_xm.TabIndex = 16;
+            this.cb_xm.UseVisualStyleBackColor = true;
+            // 
+            // cb_sawedoff
+            // 
+            this.cb_sawedoff.AutoSize = true;
+            this.cb_sawedoff.Image = global::CS_GO_Bind_creator.Properties.Resources.sawed_off;
+            this.cb_sawedoff.Location = new System.Drawing.Point(532, 8);
+            this.cb_sawedoff.Name = "cb_sawedoff";
+            this.cb_sawedoff.Size = new System.Drawing.Size(81, 50);
+            this.cb_sawedoff.TabIndex = 13;
+            this.cb_sawedoff.UseVisualStyleBackColor = true;
+            // 
+            // cb_he
+            // 
+            this.cb_he.AutoSize = true;
+            this.cb_he.Image = global::CS_GO_Bind_creator.Properties.Resources.he;
+            this.cb_he.Location = new System.Drawing.Point(6, 6);
+            this.cb_he.Name = "cb_he";
+            this.cb_he.Size = new System.Drawing.Size(81, 50);
+            this.cb_he.TabIndex = 19;
+            this.cb_he.UseVisualStyleBackColor = true;
+            // 
+            // cb_decoy
+            // 
+            this.cb_decoy.AutoSize = true;
+            this.cb_decoy.Image = global::CS_GO_Bind_creator.Properties.Resources.decoy;
+            this.cb_decoy.Location = new System.Drawing.Point(6, 134);
+            this.cb_decoy.Name = "cb_decoy";
+            this.cb_decoy.Size = new System.Drawing.Size(81, 50);
+            this.cb_decoy.TabIndex = 18;
+            this.cb_decoy.UseVisualStyleBackColor = true;
+            // 
+            // cb_flash
+            // 
+            this.cb_flash.AutoSize = true;
+            this.cb_flash.Image = global::CS_GO_Bind_creator.Properties.Resources.flash;
+            this.cb_flash.Location = new System.Drawing.Point(6, 262);
+            this.cb_flash.Name = "cb_flash";
+            this.cb_flash.Size = new System.Drawing.Size(81, 50);
+            this.cb_flash.TabIndex = 17;
+            this.cb_flash.UseVisualStyleBackColor = true;
+            // 
+            // cb_smoke
+            // 
+            this.cb_smoke.AutoSize = true;
+            this.cb_smoke.Image = global::CS_GO_Bind_creator.Properties.Resources.smoke;
+            this.cb_smoke.Location = new System.Drawing.Point(540, 7);
+            this.cb_smoke.Name = "cb_smoke";
+            this.cb_smoke.Size = new System.Drawing.Size(81, 50);
+            this.cb_smoke.TabIndex = 22;
+            this.cb_smoke.UseVisualStyleBackColor = true;
+            // 
+            // cb_molotov
+            // 
+            this.cb_molotov.AutoSize = true;
+            this.cb_molotov.Image = global::CS_GO_Bind_creator.Properties.Resources.molotov;
+            this.cb_molotov.Location = new System.Drawing.Point(540, 135);
+            this.cb_molotov.Name = "cb_molotov";
+            this.cb_molotov.Size = new System.Drawing.Size(81, 50);
+            this.cb_molotov.TabIndex = 21;
+            this.cb_molotov.UseVisualStyleBackColor = true;
+            // 
+            // cb_inc
+            // 
+            this.cb_inc.AutoSize = true;
+            this.cb_inc.Image = global::CS_GO_Bind_creator.Properties.Resources.inc;
+            this.cb_inc.Location = new System.Drawing.Point(540, 263);
+            this.cb_inc.Name = "cb_inc";
+            this.cb_inc.Size = new System.Drawing.Size(81, 50);
+            this.cb_inc.TabIndex = 20;
+            this.cb_inc.UseVisualStyleBackColor = true;
+            // 
+            // cb_kevlar
+            // 
+            this.cb_kevlar.AutoSize = true;
+            this.cb_kevlar.Image = global::CS_GO_Bind_creator.Properties.Resources.kevlar;
+            this.cb_kevlar.Location = new System.Drawing.Point(6, 93);
+            this.cb_kevlar.Name = "cb_kevlar";
+            this.cb_kevlar.Size = new System.Drawing.Size(59, 50);
+            this.cb_kevlar.TabIndex = 20;
+            this.cb_kevlar.UseVisualStyleBackColor = true;
+            // 
+            // cb_taser
+            // 
+            this.cb_taser.AutoSize = true;
+            this.cb_taser.Image = global::CS_GO_Bind_creator.Properties.Resources.taser;
+            this.cb_taser.Location = new System.Drawing.Point(6, 180);
+            this.cb_taser.Name = "cb_taser";
+            this.cb_taser.Size = new System.Drawing.Size(81, 50);
+            this.cb_taser.TabIndex = 19;
+            this.cb_taser.UseVisualStyleBackColor = true;
+            // 
+            // cb_defuse
+            // 
+            this.cb_defuse.AutoSize = true;
+            this.cb_defuse.Image = global::CS_GO_Bind_creator.Properties.Resources.defuse;
+            this.cb_defuse.Location = new System.Drawing.Point(6, 267);
+            this.cb_defuse.Name = "cb_defuse";
+            this.cb_defuse.Size = new System.Drawing.Size(115, 48);
+            this.cb_defuse.TabIndex = 18;
+            this.cb_defuse.UseVisualStyleBackColor = true;
+            // 
+            // cb_kevlarhelm
+            // 
+            this.cb_kevlarhelm.AutoSize = true;
+            this.cb_kevlarhelm.Image = global::CS_GO_Bind_creator.Properties.Resources.kevlarhelmet;
+            this.cb_kevlarhelm.Location = new System.Drawing.Point(6, 6);
+            this.cb_kevlarhelm.Name = "cb_kevlarhelm";
+            this.cb_kevlarhelm.Size = new System.Drawing.Size(115, 50);
+            this.cb_kevlarhelm.TabIndex = 17;
+            this.cb_kevlarhelm.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -1525,6 +1927,16 @@
             this.tabControl1.ResumeLayout(false);
             this.tp_pistols.ResumeLayout(false);
             this.tp_pistols.PerformLayout();
+            this.tp_rifles.ResumeLayout(false);
+            this.tp_rifles.PerformLayout();
+            this.tp_mps.ResumeLayout(false);
+            this.tp_mps.PerformLayout();
+            this.tp_heavy.ResumeLayout(false);
+            this.tp_heavy.PerformLayout();
+            this.tp_granades.ResumeLayout(false);
+            this.tp_granades.PerformLayout();
+            this.tp_gear.ResumeLayout(false);
+            this.tp_gear.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1664,6 +2076,39 @@
         private System.Windows.Forms.TabPage tp_other;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.CheckBox cb_ak47;
+        private System.Windows.Forms.CheckBox cb_sgg;
+        private System.Windows.Forms.CheckBox cb_autot;
+        private System.Windows.Forms.CheckBox cb_galil;
+        private System.Windows.Forms.CheckBox cb_m4a1s;
+        private System.Windows.Forms.CheckBox cb_scout;
+        private System.Windows.Forms.CheckBox cb_awp;
+        private System.Windows.Forms.CheckBox cb_m4a4;
+        private System.Windows.Forms.CheckBox cb_aug;
+        private System.Windows.Forms.CheckBox cb_autoct;
+        private System.Windows.Forms.CheckBox cb_famas;
+        private System.Windows.Forms.CheckBox cb_p90;
+        private System.Windows.Forms.CheckBox cb_mp9;
+        private System.Windows.Forms.CheckBox cb_mp7;
+        private System.Windows.Forms.CheckBox cb_ump45;
+        private System.Windows.Forms.CheckBox cb_ppbizon;
+        private System.Windows.Forms.CheckBox cb_mac10;
+        private System.Windows.Forms.CheckBox cb_xm;
+        private System.Windows.Forms.CheckBox cb_sawedoff;
+        private System.Windows.Forms.CheckBox cb_m249;
+        private System.Windows.Forms.CheckBox cb_nova;
+        private System.Windows.Forms.CheckBox cb_swag7;
+        private System.Windows.Forms.CheckBox cb_negev;
+        private System.Windows.Forms.CheckBox cb_smoke;
+        private System.Windows.Forms.CheckBox cb_molotov;
+        private System.Windows.Forms.CheckBox cb_inc;
+        private System.Windows.Forms.CheckBox cb_he;
+        private System.Windows.Forms.CheckBox cb_decoy;
+        private System.Windows.Forms.CheckBox cb_flash;
+        private System.Windows.Forms.CheckBox cb_kevlar;
+        private System.Windows.Forms.CheckBox cb_taser;
+        private System.Windows.Forms.CheckBox cb_defuse;
+        private System.Windows.Forms.CheckBox cb_kevlarhelm;
     }
 }
 

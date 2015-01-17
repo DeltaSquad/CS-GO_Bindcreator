@@ -118,124 +118,127 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="ak47" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ak47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="aug" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\aug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="awp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\awp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cz75" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cz75.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="deagle" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\deagle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="decoy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\decoy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="defuse" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\defuse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="dualb" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\dualb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="famas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\famas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="flash" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\flash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="g3sg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\g3sg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="deagle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\deagle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="galil" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\galil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="glock" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\glock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="he" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\he.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="inc" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\inc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kevlar" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kevlar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="kevlarhelmet" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kevlarhelmet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="m249" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m249.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="m4a1s" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m4a1s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="m4a4" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\m4a4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mac10" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mac10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="molotov" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\molotov.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="mp7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mp7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="negev" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\negev.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="nova" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nova.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="p2000" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\p2000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="p250" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\p250.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="p90" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\p90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ppbizon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ppbizon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="sawed_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sawed-off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="scar20" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\scar20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="sg553" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\sg553.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="smoke" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\smoke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="ssg08" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ssg08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="swag7" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\swag7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="decoy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\decoy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="taser" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\taser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="kevlarhelmet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kevlarhelmet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p250" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p250.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smoke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smoke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="molotov" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\molotov.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ak47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ak47.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="inc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\inc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="famas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\famas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="glock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\glock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="tec9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tec9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ppbizon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ppbizon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m4a1s" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m4a1s.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ump45" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ump45.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="usp" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\usp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="kevlar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kevlar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="xm1014" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\xm1014.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cz75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cz75.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m4a4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m4a4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p2000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p2000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mac10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mac10.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mp7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mp7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="defuse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\defuse.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p90" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p90.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="scar20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\scar20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="m249" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\m249.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="swag7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\swag7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="negev" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\negev.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ssg08" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ssg08.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nova" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nova.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dualb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dualb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="flash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\flash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sawed_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sawed-off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="he" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\he.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="usp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\usp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mp9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mp9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

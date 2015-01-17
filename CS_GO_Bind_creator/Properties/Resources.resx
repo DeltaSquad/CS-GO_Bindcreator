@@ -241,4 +241,58 @@
   <data name="mp9" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mp9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="detail_cz75" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detail-cz75.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_cz75_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detail-cz75-hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_desert_eagle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detail-desert_eagle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_desert_eagle_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detail-desert_eagle-hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_dual_berettas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detail-dual_berettas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_dual_berettas_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detail-dual_berettas-hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_five_seven" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detail-five-seven.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_five_seven_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detail-five-seven-hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_glock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detail-glock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_glock_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detail-glock-hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_p2000" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detail-p2000.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_p2000_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detail-p2000-hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_p250" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detail-p250.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_p250_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detail-p250-hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_tec_9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detail-tec-9.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_tec_9_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detail-tec-9-hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_usp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detail-usp.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="detail_usp_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\detail-usp-hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

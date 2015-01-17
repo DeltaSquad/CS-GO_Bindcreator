@@ -81,6 +81,60 @@
   <ItemGroup>
     <None Include="Resources\mp9.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail-cz75.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail-cz75-hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail-desert_eagle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail-desert_eagle-hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail-dual_berettas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail-dual_berettas-hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail-five-seven.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail-five-seven-hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail-glock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail-glock-hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail-p250.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail-p250-hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail-p2000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail-p2000-hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail-tec-9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail-tec-9-hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail-usp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\detail-usp-hover.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

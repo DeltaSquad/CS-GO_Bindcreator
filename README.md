@@ -1,1 +1,3 @@
-# CS-GO_Bindcreator
+# CS-GO_Bindcreator [WIP]
+
+Readme not yet implemented

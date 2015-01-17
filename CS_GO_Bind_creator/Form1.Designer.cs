@@ -1153,6 +1153,7 @@
             this.btn_delall.TabIndex = 111;
             this.btn_delall.Text = "Delete all";
             this.btn_delall.UseVisualStyleBackColor = true;
+            this.btn_delall.Click += new System.EventHandler(this.btn_delall_Click);
             // 
             // btn_savetoclip
             // 

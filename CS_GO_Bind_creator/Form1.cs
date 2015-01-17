@@ -92,5 +92,10 @@ namespace CS_GO_Bind_creator
         {
             Clipboard.SetText(tB_end.Text);
         }
+
+        private void btn_delall_Click(object sender, EventArgs e)
+        {
+            tB_end.Text = "";
+        }
     }
 }

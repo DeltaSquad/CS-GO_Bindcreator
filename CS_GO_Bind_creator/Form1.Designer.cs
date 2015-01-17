@@ -147,7 +147,16 @@
             this.tp_heavy = new System.Windows.Forms.TabPage();
             this.tp_granades = new System.Windows.Forms.TabPage();
             this.tp_gear = new System.Windows.Forms.TabPage();
+            this.cb_glock = new System.Windows.Forms.CheckBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.checkBox4 = new System.Windows.Forms.CheckBox();
+            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.checkBox6 = new System.Windows.Forms.CheckBox();
+            this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.tabControl1.SuspendLayout();
+            this.tp_pistols.SuspendLayout();
             this.SuspendLayout();
             // 
             // button_kp_minus
@@ -1191,6 +1200,14 @@
             // 
             // tp_pistols
             // 
+            this.tp_pistols.Controls.Add(this.checkBox7);
+            this.tp_pistols.Controls.Add(this.checkBox6);
+            this.tp_pistols.Controls.Add(this.checkBox5);
+            this.tp_pistols.Controls.Add(this.checkBox4);
+            this.tp_pistols.Controls.Add(this.checkBox3);
+            this.tp_pistols.Controls.Add(this.checkBox2);
+            this.tp_pistols.Controls.Add(this.checkBox1);
+            this.tp_pistols.Controls.Add(this.cb_glock);
             this.tp_pistols.Location = new System.Drawing.Point(4, 22);
             this.tp_pistols.Name = "tp_pistols";
             this.tp_pistols.Padding = new System.Windows.Forms.Padding(3);
@@ -1248,6 +1265,86 @@
             this.tp_gear.TabIndex = 5;
             this.tp_gear.Text = "Gear";
             this.tp_gear.UseVisualStyleBackColor = true;
+            // 
+            // cb_glock
+            // 
+            this.cb_glock.AutoSize = true;
+            this.cb_glock.Image = global::CS_GO_Bind_creator.Properties.Resources.glock;
+            this.cb_glock.Location = new System.Drawing.Point(6, 9);
+            this.cb_glock.Name = "cb_glock";
+            this.cb_glock.Size = new System.Drawing.Size(81, 50);
+            this.cb_glock.TabIndex = 1;
+            this.cb_glock.UseVisualStyleBackColor = true;
+            // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Image = global::CS_GO_Bind_creator.Properties.Resources.glock;
+            this.checkBox1.Location = new System.Drawing.Point(6, 65);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(81, 50);
+            this.checkBox1.TabIndex = 2;
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
+            // checkBox2
+            // 
+            this.checkBox2.AutoSize = true;
+            this.checkBox2.Image = global::CS_GO_Bind_creator.Properties.Resources.glock;
+            this.checkBox2.Location = new System.Drawing.Point(4, 209);
+            this.checkBox2.Name = "checkBox2";
+            this.checkBox2.Size = new System.Drawing.Size(81, 50);
+            this.checkBox2.TabIndex = 3;
+            this.checkBox2.UseVisualStyleBackColor = true;
+            // 
+            // checkBox3
+            // 
+            this.checkBox3.AutoSize = true;
+            this.checkBox3.Image = global::CS_GO_Bind_creator.Properties.Resources.glock;
+            this.checkBox3.Location = new System.Drawing.Point(4, 265);
+            this.checkBox3.Name = "checkBox3";
+            this.checkBox3.Size = new System.Drawing.Size(81, 50);
+            this.checkBox3.TabIndex = 4;
+            this.checkBox3.UseVisualStyleBackColor = true;
+            // 
+            // checkBox4
+            // 
+            this.checkBox4.AutoSize = true;
+            this.checkBox4.Image = global::CS_GO_Bind_creator.Properties.Resources.glock;
+            this.checkBox4.Location = new System.Drawing.Point(532, 9);
+            this.checkBox4.Name = "checkBox4";
+            this.checkBox4.Size = new System.Drawing.Size(81, 50);
+            this.checkBox4.TabIndex = 5;
+            this.checkBox4.UseVisualStyleBackColor = true;
+            // 
+            // checkBox5
+            // 
+            this.checkBox5.AutoSize = true;
+            this.checkBox5.Image = global::CS_GO_Bind_creator.Properties.Resources.glock;
+            this.checkBox5.Location = new System.Drawing.Point(532, 65);
+            this.checkBox5.Name = "checkBox5";
+            this.checkBox5.Size = new System.Drawing.Size(81, 50);
+            this.checkBox5.TabIndex = 6;
+            this.checkBox5.UseVisualStyleBackColor = true;
+            // 
+            // checkBox6
+            // 
+            this.checkBox6.AutoSize = true;
+            this.checkBox6.Image = global::CS_GO_Bind_creator.Properties.Resources.glock;
+            this.checkBox6.Location = new System.Drawing.Point(532, 209);
+            this.checkBox6.Name = "checkBox6";
+            this.checkBox6.Size = new System.Drawing.Size(81, 50);
+            this.checkBox6.TabIndex = 7;
+            this.checkBox6.UseVisualStyleBackColor = true;
+            // 
+            // checkBox7
+            // 
+            this.checkBox7.AutoSize = true;
+            this.checkBox7.Image = global::CS_GO_Bind_creator.Properties.Resources.glock;
+            this.checkBox7.Location = new System.Drawing.Point(532, 265);
+            this.checkBox7.Name = "checkBox7";
+            this.checkBox7.Size = new System.Drawing.Size(81, 50);
+            this.checkBox7.TabIndex = 8;
+            this.checkBox7.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -1372,6 +1469,8 @@
             this.Text = "CS:GO Bindcreator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.tabControl1.ResumeLayout(false);
+            this.tp_pistols.ResumeLayout(false);
+            this.tp_pistols.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1498,6 +1597,14 @@
         private System.Windows.Forms.TabPage tp_heavy;
         private System.Windows.Forms.TabPage tp_granades;
         private System.Windows.Forms.TabPage tp_gear;
+        private System.Windows.Forms.CheckBox cb_glock;
+        private System.Windows.Forms.CheckBox checkBox7;
+        private System.Windows.Forms.CheckBox checkBox6;
+        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.CheckBox checkBox4;
+        private System.Windows.Forms.CheckBox checkBox3;
+        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 

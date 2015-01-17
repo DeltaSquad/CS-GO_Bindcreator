@@ -80,7 +80,7 @@
             this.button_u = new System.Windows.Forms.Button();
             this.button_p = new System.Windows.Forms.Button();
             this.button_o = new System.Windows.Forms.Button();
-            this.button_i = new System.Windows.Forms.Button();
+            this.rtb_commands = new System.Windows.Forms.Button();
             this.button_a = new System.Windows.Forms.Button();
             this.button_s = new System.Windows.Forms.Button();
             this.button_h = new System.Windows.Forms.Button();
@@ -142,19 +142,24 @@
             this.btn_getcommand = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tp_pistols = new System.Windows.Forms.TabPage();
+            this.cb_dualb = new System.Windows.Forms.CheckBox();
+            this.cb_deagle = new System.Windows.Forms.CheckBox();
+            this.cb_p250 = new System.Windows.Forms.CheckBox();
+            this.cb_glock = new System.Windows.Forms.CheckBox();
             this.tp_rifles = new System.Windows.Forms.TabPage();
             this.tp_mps = new System.Windows.Forms.TabPage();
             this.tp_heavy = new System.Windows.Forms.TabPage();
             this.tp_granades = new System.Windows.Forms.TabPage();
             this.tp_gear = new System.Windows.Forms.TabPage();
-            this.cb_glock = new System.Windows.Forms.CheckBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
+            this.cb_usp = new System.Windows.Forms.CheckBox();
+            this.cb_p2000 = new System.Windows.Forms.CheckBox();
+            this.cb_cz75 = new System.Windows.Forms.CheckBox();
+            this.cb_tecß = new System.Windows.Forms.CheckBox();
+            this.tb_key = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.tp_other = new System.Windows.Forms.TabPage();
+            this.label4 = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.tabControl1.SuspendLayout();
             this.tp_pistols.SuspendLayout();
             this.SuspendLayout();
@@ -635,14 +640,14 @@
             this.button_o.Text = "O";
             this.button_o.UseVisualStyleBackColor = true;
             // 
-            // button_i
+            // rtb_commands
             // 
-            this.button_i.Location = new System.Drawing.Point(414, 475);
-            this.button_i.Name = "button_i";
-            this.button_i.Size = new System.Drawing.Size(42, 42);
-            this.button_i.TabIndex = 45;
-            this.button_i.Text = "I";
-            this.button_i.UseVisualStyleBackColor = true;
+            this.rtb_commands.Location = new System.Drawing.Point(414, 475);
+            this.rtb_commands.Name = "rtb_commands";
+            this.rtb_commands.Size = new System.Drawing.Size(42, 42);
+            this.rtb_commands.TabIndex = 45;
+            this.rtb_commands.Text = "I";
+            this.rtb_commands.UseVisualStyleBackColor = true;
             // 
             // button_a
             // 
@@ -1193,6 +1198,7 @@
             this.tabControl1.Controls.Add(this.tp_heavy);
             this.tabControl1.Controls.Add(this.tp_granades);
             this.tabControl1.Controls.Add(this.tp_gear);
+            this.tabControl1.Controls.Add(this.tp_other);
             this.tabControl1.Location = new System.Drawing.Point(13, 12);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -1201,13 +1207,13 @@
             // 
             // tp_pistols
             // 
-            this.tp_pistols.Controls.Add(this.checkBox7);
-            this.tp_pistols.Controls.Add(this.checkBox6);
-            this.tp_pistols.Controls.Add(this.checkBox5);
-            this.tp_pistols.Controls.Add(this.checkBox4);
-            this.tp_pistols.Controls.Add(this.checkBox3);
-            this.tp_pistols.Controls.Add(this.checkBox2);
-            this.tp_pistols.Controls.Add(this.checkBox1);
+            this.tp_pistols.Controls.Add(this.cb_usp);
+            this.tp_pistols.Controls.Add(this.cb_p2000);
+            this.tp_pistols.Controls.Add(this.cb_cz75);
+            this.tp_pistols.Controls.Add(this.cb_tecß);
+            this.tp_pistols.Controls.Add(this.cb_dualb);
+            this.tp_pistols.Controls.Add(this.cb_deagle);
+            this.tp_pistols.Controls.Add(this.cb_p250);
             this.tp_pistols.Controls.Add(this.cb_glock);
             this.tp_pistols.Location = new System.Drawing.Point(4, 22);
             this.tp_pistols.Name = "tp_pistols";
@@ -1216,6 +1222,46 @@
             this.tp_pistols.TabIndex = 0;
             this.tp_pistols.Text = "Pistols";
             this.tp_pistols.UseVisualStyleBackColor = true;
+            // 
+            // cb_dualb
+            // 
+            this.cb_dualb.AutoSize = true;
+            this.cb_dualb.Image = global::CS_GO_Bind_creator.Properties.Resources.dualb;
+            this.cb_dualb.Location = new System.Drawing.Point(4, 265);
+            this.cb_dualb.Name = "cb_dualb";
+            this.cb_dualb.Size = new System.Drawing.Size(81, 50);
+            this.cb_dualb.TabIndex = 4;
+            this.cb_dualb.UseVisualStyleBackColor = true;
+            // 
+            // cb_deagle
+            // 
+            this.cb_deagle.AutoSize = true;
+            this.cb_deagle.Image = global::CS_GO_Bind_creator.Properties.Resources.deagle;
+            this.cb_deagle.Location = new System.Drawing.Point(4, 182);
+            this.cb_deagle.Name = "cb_deagle";
+            this.cb_deagle.Size = new System.Drawing.Size(81, 50);
+            this.cb_deagle.TabIndex = 3;
+            this.cb_deagle.UseVisualStyleBackColor = true;
+            // 
+            // cb_p250
+            // 
+            this.cb_p250.AutoSize = true;
+            this.cb_p250.Image = global::CS_GO_Bind_creator.Properties.Resources.p250;
+            this.cb_p250.Location = new System.Drawing.Point(4, 91);
+            this.cb_p250.Name = "cb_p250";
+            this.cb_p250.Size = new System.Drawing.Size(81, 50);
+            this.cb_p250.TabIndex = 2;
+            this.cb_p250.UseVisualStyleBackColor = true;
+            // 
+            // cb_glock
+            // 
+            this.cb_glock.AutoSize = true;
+            this.cb_glock.Image = global::CS_GO_Bind_creator.Properties.Resources.glock;
+            this.cb_glock.Location = new System.Drawing.Point(4, 9);
+            this.cb_glock.Name = "cb_glock";
+            this.cb_glock.Size = new System.Drawing.Size(81, 50);
+            this.cb_glock.TabIndex = 1;
+            this.cb_glock.UseVisualStyleBackColor = true;
             // 
             // tp_rifles
             // 
@@ -1267,91 +1313,98 @@
             this.tp_gear.Text = "Gear";
             this.tp_gear.UseVisualStyleBackColor = true;
             // 
-            // cb_glock
+            // cb_usp
             // 
-            this.cb_glock.AutoSize = true;
-            this.cb_glock.Image = global::CS_GO_Bind_creator.Properties.Resources.glock;
-            this.cb_glock.Location = new System.Drawing.Point(6, 9);
-            this.cb_glock.Name = "cb_glock";
-            this.cb_glock.Size = new System.Drawing.Size(81, 50);
-            this.cb_glock.TabIndex = 1;
-            this.cb_glock.UseVisualStyleBackColor = true;
+            this.cb_usp.AutoSize = true;
+            this.cb_usp.Image = global::CS_GO_Bind_creator.Properties.Resources.usp;
+            this.cb_usp.Location = new System.Drawing.Point(540, 268);
+            this.cb_usp.Name = "cb_usp";
+            this.cb_usp.Size = new System.Drawing.Size(81, 50);
+            this.cb_usp.TabIndex = 8;
+            this.cb_usp.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
+            // cb_p2000
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Image = global::CS_GO_Bind_creator.Properties.Resources.glock;
-            this.checkBox1.Location = new System.Drawing.Point(6, 65);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(81, 50);
-            this.checkBox1.TabIndex = 2;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.cb_p2000.AutoSize = true;
+            this.cb_p2000.Image = global::CS_GO_Bind_creator.Properties.Resources.p2000;
+            this.cb_p2000.Location = new System.Drawing.Point(540, 185);
+            this.cb_p2000.Name = "cb_p2000";
+            this.cb_p2000.Size = new System.Drawing.Size(81, 50);
+            this.cb_p2000.TabIndex = 7;
+            this.cb_p2000.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // cb_cz75
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Image = global::CS_GO_Bind_creator.Properties.Resources.glock;
-            this.checkBox2.Location = new System.Drawing.Point(4, 209);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(81, 50);
-            this.checkBox2.TabIndex = 3;
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.cb_cz75.AutoSize = true;
+            this.cb_cz75.Image = global::CS_GO_Bind_creator.Properties.Resources.cz75;
+            this.cb_cz75.Location = new System.Drawing.Point(540, 94);
+            this.cb_cz75.Name = "cb_cz75";
+            this.cb_cz75.Size = new System.Drawing.Size(81, 50);
+            this.cb_cz75.TabIndex = 6;
+            this.cb_cz75.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // cb_tecß
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Image = global::CS_GO_Bind_creator.Properties.Resources.glock;
-            this.checkBox3.Location = new System.Drawing.Point(4, 265);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(81, 50);
-            this.checkBox3.TabIndex = 4;
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.cb_tecß.AutoSize = true;
+            this.cb_tecß.Image = global::CS_GO_Bind_creator.Properties.Resources.tec9;
+            this.cb_tecß.Location = new System.Drawing.Point(540, 12);
+            this.cb_tecß.Name = "cb_tecß";
+            this.cb_tecß.Size = new System.Drawing.Size(81, 50);
+            this.cb_tecß.TabIndex = 5;
+            this.cb_tecß.UseVisualStyleBackColor = true;
             // 
-            // checkBox4
+            // tb_key
             // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Image = global::CS_GO_Bind_creator.Properties.Resources.glock;
-            this.checkBox4.Location = new System.Drawing.Point(532, 9);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(81, 50);
-            this.checkBox4.TabIndex = 5;
-            this.checkBox4.UseVisualStyleBackColor = true;
+            this.tb_key.Location = new System.Drawing.Point(688, 155);
+            this.tb_key.Name = "tb_key";
+            this.tb_key.Size = new System.Drawing.Size(44, 20);
+            this.tb_key.TabIndex = 117;
             // 
-            // checkBox5
+            // label3
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Image = global::CS_GO_Bind_creator.Properties.Resources.glock;
-            this.checkBox5.Location = new System.Drawing.Point(532, 65);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(81, 50);
-            this.checkBox5.TabIndex = 6;
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(695, 139);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(28, 13);
+            this.label3.TabIndex = 118;
+            this.label3.Text = "KEY";
             // 
-            // checkBox6
+            // tp_other
             // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Image = global::CS_GO_Bind_creator.Properties.Resources.glock;
-            this.checkBox6.Location = new System.Drawing.Point(532, 209);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(81, 50);
-            this.checkBox6.TabIndex = 7;
-            this.checkBox6.UseVisualStyleBackColor = true;
+            this.tp_other.Location = new System.Drawing.Point(4, 22);
+            this.tp_other.Name = "tp_other";
+            this.tp_other.Padding = new System.Windows.Forms.Padding(3);
+            this.tp_other.Size = new System.Drawing.Size(627, 321);
+            this.tp_other.TabIndex = 6;
+            this.tp_other.Text = "Other";
+            this.tp_other.UseVisualStyleBackColor = true;
             // 
-            // checkBox7
+            // label4
             // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Image = global::CS_GO_Bind_creator.Properties.Resources.glock;
-            this.checkBox7.Location = new System.Drawing.Point(532, 265);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(81, 50);
-            this.checkBox7.TabIndex = 8;
-            this.checkBox7.UseVisualStyleBackColor = true;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(691, 178);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(108, 13);
+            this.label4.TabIndex = 119;
+            this.label4.Text = "Commands you want:";
+            // 
+            // richTextBox1
+            // 
+            this.richTextBox1.Location = new System.Drawing.Point(688, 194);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(319, 96);
+            this.richTextBox1.TabIndex = 120;
+            this.richTextBox1.Text = "";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1438, 671);
+            this.Controls.Add(this.richTextBox1);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.tb_key);
             this.Controls.Add(this.tabControl1);
             this.Controls.Add(this.btn_getcommand);
             this.Controls.Add(this.btn_savetoclip);
@@ -1420,7 +1473,7 @@
             this.Controls.Add(this.button_u);
             this.Controls.Add(this.button_p);
             this.Controls.Add(this.button_o);
-            this.Controls.Add(this.button_i);
+            this.Controls.Add(this.rtb_commands);
             this.Controls.Add(this.button_ctrll);
             this.Controls.Add(this.button_shiftl);
             this.Controls.Add(this.button_none5);
@@ -1531,7 +1584,7 @@
         private System.Windows.Forms.Button button_u;
         private System.Windows.Forms.Button button_p;
         private System.Windows.Forms.Button button_o;
-        private System.Windows.Forms.Button button_i;
+        private System.Windows.Forms.Button rtb_commands;
         private System.Windows.Forms.Button button_a;
         private System.Windows.Forms.Button button_s;
         private System.Windows.Forms.Button button_h;
@@ -1599,13 +1652,18 @@
         private System.Windows.Forms.TabPage tp_granades;
         private System.Windows.Forms.TabPage tp_gear;
         private System.Windows.Forms.CheckBox cb_glock;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox cb_dualb;
+        private System.Windows.Forms.CheckBox cb_deagle;
+        private System.Windows.Forms.CheckBox cb_p250;
+        private System.Windows.Forms.CheckBox cb_usp;
+        private System.Windows.Forms.CheckBox cb_p2000;
+        private System.Windows.Forms.CheckBox cb_cz75;
+        private System.Windows.Forms.CheckBox cb_tecß;
+        private System.Windows.Forms.TextBox tb_key;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TabPage tp_other;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.RichTextBox richTextBox1;
     }
 }
 

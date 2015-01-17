@@ -70,16 +70,28 @@ namespace CS_GO_Bind_creator
 
         private void btn_getcommand_Click(object sender, EventArgs e)
         {
-            //if (clb_cmd.CheckedItems.Count != 0)
-            //{
-            //    string s = "";
-            //    for (int x = 0; x <= clb_cmd.CheckedItems.Count - 1; x++)
-            //    {
-            //        s = s + " " + clb_cmd.CheckedItems[x].ToString() + "\n";
-            //    }
-            //    tB_end.Text = s;
-            //}
-
+            if(cb_glock.Checked == true)
+            {
+                tB_end.Text = "bind " + tb_key.Text + rtb_commands.Text;
+            }
+            else
+            {
+                if(cb_p250.Checked == true)
+                {
+                    tB_end.Text = "bind " + tb_key.Text + rtb_commands.Text;
+                }
+                else
+                {
+                    if(cb_deagle.Checked == true)
+                    {
+                        tB_end.Text = "bind " + tb_key.Text + rtb_commands.Text;
+                    }
+                    else
+                    {
+                        tB_end
+                    }
+                }
+            }
         }
         #endregion
 

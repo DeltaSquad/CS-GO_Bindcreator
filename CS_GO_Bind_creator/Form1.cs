@@ -92,11 +92,6 @@ namespace CS_GO_Bind_creator
         {
 
         }
-
-        private void tB_end_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     #endregion
         #region if else
 
@@ -312,6 +307,12 @@ namespace CS_GO_Bind_creator
         private void checkBox3_CheckedChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void bt_options_Click(object sender, EventArgs e)
+        {
+            Form2 frm = new Form2();
+            frm.ShowDialog();
         }
     }
 }

@@ -16,7 +16,8 @@ namespace CS_GO_Bind_creator
         {
             InitializeComponent();
         }
-      private void Form2_Load(object sender, EventArgs e)
+
+        private void Form2_Load(object sender, EventArgs e)
         {
             if (Properties.Settings.Default.english == true)
             {

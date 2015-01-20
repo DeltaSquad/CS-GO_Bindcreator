@@ -50,7 +50,14 @@ namespace CS_GO_Bind_creator
         #region erros
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            if (Properties.Settings.Default.english == true)
+            {
+                btn_delall.Text = "Delete all";
+            }
+            else
+            {
+                btn_delall.Text = "Alles löschen";
+            }
         }
 
         private void button_none1_Click(object sender, EventArgs e)

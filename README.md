@@ -1,3 +1,3 @@
 # CS-GO_Bindcreator [WIP]
 
-Readme not yet implemented
+[![Build Status](https://travis-ci.org/DeltaSquad/CS-GO_Bindcreator.svg?branch=master)](https://travis-ci.org/DeltaSquad/CS-GO_Bindcreator)

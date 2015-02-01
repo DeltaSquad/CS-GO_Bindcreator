@@ -101,9 +101,9 @@
             this.rb_qwertz.Name = "rb_qwertz";
             this.rb_qwertz.Size = new System.Drawing.Size(73, 17);
             this.rb_qwertz.TabIndex = 1;
-            this.rb_qwertz.TabStop = true;
             this.rb_qwertz.Text = "QWERTZ";
             this.rb_qwertz.UseVisualStyleBackColor = true;
+            this.rb_qwertz.CheckedChanged += new System.EventHandler(this.rb_qwertz_CheckedChanged);
             // 
             // rb_qwerty
             // 
@@ -112,9 +112,9 @@
             this.rb_qwerty.Name = "rb_qwerty";
             this.rb_qwerty.Size = new System.Drawing.Size(73, 17);
             this.rb_qwerty.TabIndex = 0;
-            this.rb_qwerty.TabStop = true;
             this.rb_qwerty.Text = "QWERTY";
             this.rb_qwerty.UseVisualStyleBackColor = true;
+            this.rb_qwerty.CheckedChanged += new System.EventHandler(this.rb_qwerty_CheckedChanged);
             // 
             // Form2
             // 

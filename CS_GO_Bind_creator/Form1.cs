@@ -52,10 +52,12 @@ namespace CS_GO_Bind_creator
             if (Properties.Settings.Default.english == true)
             {
                 btn_delall.Text = "Delete all";
+                label2.Text = "Your command:";
             }
             else
             {
                 btn_delall.Text = "Alles löschen";
+                label2.Text = "Dein Befehl:";
             }
             #endregion
         }

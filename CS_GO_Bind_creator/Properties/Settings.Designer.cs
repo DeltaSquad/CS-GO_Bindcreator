@@ -34,5 +34,17 @@ namespace CS_GO_Bind_creator.Properties {
                 this["english"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("True")]
+        public bool qwerty {
+            get {
+                return ((bool)(this["qwerty"]));
+            }
+            set {
+                this["qwerty"] = value;
+            }
+        }
     }
 }

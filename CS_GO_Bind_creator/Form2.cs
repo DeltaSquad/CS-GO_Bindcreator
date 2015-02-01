@@ -43,6 +43,18 @@ namespace CS_GO_Bind_creator
                 lb_warning.Text = "--- Bei änderung Neustarten ---";
             }
             #endregion
+            #region keyboard
+            if (Properties.Settings.Default.qwerty == true)
+            {
+                rb_qwerty.Checked = true;
+                rb_qwertz.Checked = false;
+            }
+            else
+            {
+                rb_qwerty.Checked = true;
+                rb_qwertz.Checked = false;
+            }
+            #endregion
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
@@ -54,6 +66,18 @@ namespace CS_GO_Bind_creator
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
             Properties.Settings.Default["english"] = false;
+            Properties.Settings.Default.Save();
+        }
+
+        private void rb_qwerty_CheckedChanged(object sender, EventArgs e)
+        {
+            Properties.Settings.Default["qwerty"] = true;
+            Properties.Settings.Default.Save();
+        }
+
+        private void rb_qwertz_CheckedChanged(object sender, EventArgs e)
+        {
+            Properties.Settings.Default["qwerty"] = false;
             Properties.Settings.Default.Save();
         }
     }

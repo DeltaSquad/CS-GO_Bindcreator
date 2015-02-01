@@ -48,6 +48,7 @@ namespace CS_GO_Bind_creator
         }
         private void Form1_Load(object sender, EventArgs e)
         {
+            #region language
             if (Properties.Settings.Default.english == true)
             {
                 btn_delall.Text = "Delete all";
@@ -56,6 +57,7 @@ namespace CS_GO_Bind_creator
             {
                 btn_delall.Text = "Alles löschen";
             }
+            #endregion
         }
 
         //fail

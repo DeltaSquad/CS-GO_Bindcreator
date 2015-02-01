@@ -19,6 +19,7 @@ namespace CS_GO_Bind_creator
 
         private void Form2_Load(object sender, EventArgs e)
         {
+            #region language
             if (Properties.Settings.Default.english == true)
             {
                 rb_english.Checked = true;
@@ -41,6 +42,7 @@ namespace CS_GO_Bind_creator
                 rb_german.Text = "Deutsch";
                 lb_warning.Text = "--- Bei änderung Neustarten ---";
             }
+            #endregion
         }
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)

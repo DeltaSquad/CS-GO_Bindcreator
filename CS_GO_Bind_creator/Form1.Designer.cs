@@ -194,6 +194,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.bt_options = new System.Windows.Forms.Button();
+            this.pb_glock = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tp_pistols.SuspendLayout();
             this.tp_rifles.SuspendLayout();
@@ -201,6 +202,7 @@
             this.tp_heavy.SuspendLayout();
             this.tp_granades.SuspendLayout();
             this.tp_gear.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_glock)).BeginInit();
             this.SuspendLayout();
             // 
             // button_kp_minus
@@ -1245,6 +1247,8 @@
             // 
             // tp_pistols
             // 
+            this.tp_pistols.BackColor = System.Drawing.Color.LightGray;
+            this.tp_pistols.Controls.Add(this.pb_glock);
             this.tp_pistols.Controls.Add(this.cb_usp);
             this.tp_pistols.Controls.Add(this.cb_p2000);
             this.tp_pistols.Controls.Add(this.cb_cz75);
@@ -1259,7 +1263,6 @@
             this.tp_pistols.Size = new System.Drawing.Size(627, 321);
             this.tp_pistols.TabIndex = 0;
             this.tp_pistols.Text = "Pistols";
-            this.tp_pistols.UseVisualStyleBackColor = true;
             // 
             // cb_usp
             // 
@@ -1808,6 +1811,17 @@
             this.bt_options.UseVisualStyleBackColor = true;
             this.bt_options.Click += new System.EventHandler(this.bt_options_Click);
             // 
+            // pb_glock
+            // 
+            this.pb_glock.Image = global::CS_GO_Bind_creator.Properties.Resources.detail_glock;
+            this.pb_glock.Location = new System.Drawing.Point(91, 9);
+            this.pb_glock.Name = "pb_glock";
+            this.pb_glock.Size = new System.Drawing.Size(125, 50);
+            this.pb_glock.TabIndex = 122;
+            this.pb_glock.TabStop = false;
+            this.pb_glock.MouseEnter += new System.EventHandler(this.pb_glock_MouseEnter);
+            this.pb_glock.MouseLeave += new System.EventHandler(this.pb_glock_MouseLeave);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1948,6 +1962,7 @@
             this.tp_granades.PerformLayout();
             this.tp_gear.ResumeLayout(false);
             this.tp_gear.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_glock)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2121,6 +2136,7 @@
         private System.Windows.Forms.CheckBox cb_defuse;
         private System.Windows.Forms.CheckBox cb_kevlarhelm;
         private System.Windows.Forms.Button bt_options;
+        private System.Windows.Forms.PictureBox pb_glock;
     }
 }
 

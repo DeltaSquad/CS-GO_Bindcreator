@@ -325,5 +325,15 @@ namespace CS_GO_Bind_creator
             Form2 frm = new Form2();
             frm.ShowDialog();
         }
+
+        private void pb_glock_MouseLeave(object sender, EventArgs e)
+        {
+            pb_glock.Image = Properties.Resources.detail_glock;
+        }
+
+        private void pb_glock_MouseEnter(object sender, EventArgs e)
+        {
+            pb_glock.Image = Properties.Resources.detail_glock_hover;
+        }
     }
 }

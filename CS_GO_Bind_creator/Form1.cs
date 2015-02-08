@@ -103,6 +103,14 @@ namespace CS_GO_Bind_creator
         {
 
         }
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
         #endregion
         #region if else
 
@@ -272,11 +280,6 @@ namespace CS_GO_Bind_creator
         }
         #endregion
 
-        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btn_savetoclip_Click(object sender, EventArgs e)
         {
             Clipboard.SetText(tB_end.Text);
@@ -315,25 +318,50 @@ namespace CS_GO_Bind_creator
             m249 = false;
         }
 
-        private void checkBox3_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void bt_options_Click(object sender, EventArgs e)
         {
             Form2 frm = new Form2();
             frm.ShowDialog();
         }
 
+        #region details
+        //---------- PISTOLS ----------
+        //Glock
         private void pb_glock_MouseLeave(object sender, EventArgs e)
         {
             pb_glock.Image = Properties.Resources.detail_glock;
         }
-
         private void pb_glock_MouseEnter(object sender, EventArgs e)
         {
             pb_glock.Image = Properties.Resources.detail_glock_hover;
         }
+        //P250
+        private void pb_p250_MouseLeave(object sender, EventArgs e)
+        {
+            pb_p250.Image = Properties.Resources.detail_p250;
+        }
+        private void pb_p250_MouseEnter(object sender, EventArgs e)
+        {
+            pb_p250.Image = Properties.Resources.detail_p250_hover;
+        }
+        //Desert Eagle
+        private void pb_deagle_MouseLeave(object sender, EventArgs e)
+        {
+            pb_deagle.Image = Properties.Resources.detail_desert_eagle;
+        }
+        private void pb_deagle_MouseEnter(object sender, EventArgs e)
+        {
+            pb_deagle.Image = Properties.Resources.detail_desert_eagle_hover;
+        }
+        //Dual Berettas
+        private void pb_dualb_MouseLeave(object sender, EventArgs e)
+        {
+            pb_dualb.Image = Properties.Resources.detail_dual_berettas;
+        }
+        private void pb_dualb_MouseEnter(object sender, EventArgs e)
+        {
+            pb_dualb.Image = Properties.Resources.detail_dual_berettas_hover;
+        }
+        #endregion
     }
 }

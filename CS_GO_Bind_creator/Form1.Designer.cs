@@ -142,6 +142,9 @@
             this.btn_getcommand = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tp_pistols = new System.Windows.Forms.TabPage();
+            this.pb_deagle = new System.Windows.Forms.PictureBox();
+            this.pb_p250 = new System.Windows.Forms.PictureBox();
+            this.pb_glock = new System.Windows.Forms.PictureBox();
             this.cb_usp = new System.Windows.Forms.CheckBox();
             this.cb_p2000 = new System.Windows.Forms.CheckBox();
             this.cb_cz75 = new System.Windows.Forms.CheckBox();
@@ -194,15 +197,18 @@
             this.label4 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.bt_options = new System.Windows.Forms.Button();
-            this.pb_glock = new System.Windows.Forms.PictureBox();
+            this.pb_dualb = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tp_pistols.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_deagle)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_p250)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_glock)).BeginInit();
             this.tp_rifles.SuspendLayout();
             this.tp_mps.SuspendLayout();
             this.tp_heavy.SuspendLayout();
             this.tp_granades.SuspendLayout();
             this.tp_gear.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_glock)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_dualb)).BeginInit();
             this.SuspendLayout();
             // 
             // button_kp_minus
@@ -1248,6 +1254,9 @@
             // tp_pistols
             // 
             this.tp_pistols.BackColor = System.Drawing.Color.LightGray;
+            this.tp_pistols.Controls.Add(this.pb_dualb);
+            this.tp_pistols.Controls.Add(this.pb_deagle);
+            this.tp_pistols.Controls.Add(this.pb_p250);
             this.tp_pistols.Controls.Add(this.pb_glock);
             this.tp_pistols.Controls.Add(this.cb_usp);
             this.tp_pistols.Controls.Add(this.cb_p2000);
@@ -1263,6 +1272,39 @@
             this.tp_pistols.Size = new System.Drawing.Size(627, 321);
             this.tp_pistols.TabIndex = 0;
             this.tp_pistols.Text = "Pistols";
+            // 
+            // pb_deagle
+            // 
+            this.pb_deagle.Image = global::CS_GO_Bind_creator.Properties.Resources.detail_desert_eagle;
+            this.pb_deagle.Location = new System.Drawing.Point(91, 182);
+            this.pb_deagle.Name = "pb_deagle";
+            this.pb_deagle.Size = new System.Drawing.Size(125, 50);
+            this.pb_deagle.TabIndex = 122;
+            this.pb_deagle.TabStop = false;
+            this.pb_deagle.MouseEnter += new System.EventHandler(this.pb_deagle_MouseEnter);
+            this.pb_deagle.MouseLeave += new System.EventHandler(this.pb_deagle_MouseLeave);
+            // 
+            // pb_p250
+            // 
+            this.pb_p250.Image = global::CS_GO_Bind_creator.Properties.Resources.detail_p250;
+            this.pb_p250.Location = new System.Drawing.Point(91, 91);
+            this.pb_p250.Name = "pb_p250";
+            this.pb_p250.Size = new System.Drawing.Size(125, 50);
+            this.pb_p250.TabIndex = 122;
+            this.pb_p250.TabStop = false;
+            this.pb_p250.MouseEnter += new System.EventHandler(this.pb_p250_MouseEnter);
+            this.pb_p250.MouseLeave += new System.EventHandler(this.pb_p250_MouseLeave);
+            // 
+            // pb_glock
+            // 
+            this.pb_glock.Image = global::CS_GO_Bind_creator.Properties.Resources.detail_glock;
+            this.pb_glock.Location = new System.Drawing.Point(91, 9);
+            this.pb_glock.Name = "pb_glock";
+            this.pb_glock.Size = new System.Drawing.Size(125, 50);
+            this.pb_glock.TabIndex = 122;
+            this.pb_glock.TabStop = false;
+            this.pb_glock.MouseEnter += new System.EventHandler(this.pb_glock_MouseEnter);
+            this.pb_glock.MouseLeave += new System.EventHandler(this.pb_glock_MouseLeave);
             // 
             // cb_usp
             // 
@@ -1811,16 +1853,16 @@
             this.bt_options.UseVisualStyleBackColor = true;
             this.bt_options.Click += new System.EventHandler(this.bt_options_Click);
             // 
-            // pb_glock
+            // pb_dualb
             // 
-            this.pb_glock.Image = global::CS_GO_Bind_creator.Properties.Resources.detail_glock;
-            this.pb_glock.Location = new System.Drawing.Point(91, 9);
-            this.pb_glock.Name = "pb_glock";
-            this.pb_glock.Size = new System.Drawing.Size(125, 50);
-            this.pb_glock.TabIndex = 122;
-            this.pb_glock.TabStop = false;
-            this.pb_glock.MouseEnter += new System.EventHandler(this.pb_glock_MouseEnter);
-            this.pb_glock.MouseLeave += new System.EventHandler(this.pb_glock_MouseLeave);
+            this.pb_dualb.Image = global::CS_GO_Bind_creator.Properties.Resources.detail_dual_berettas;
+            this.pb_dualb.Location = new System.Drawing.Point(91, 265);
+            this.pb_dualb.Name = "pb_dualb";
+            this.pb_dualb.Size = new System.Drawing.Size(125, 50);
+            this.pb_dualb.TabIndex = 122;
+            this.pb_dualb.TabStop = false;
+            this.pb_dualb.MouseEnter += new System.EventHandler(this.pb_dualb_MouseEnter);
+            this.pb_dualb.MouseLeave += new System.EventHandler(this.pb_dualb_MouseLeave);
             // 
             // Form1
             // 
@@ -1952,6 +1994,9 @@
             this.tabControl1.ResumeLayout(false);
             this.tp_pistols.ResumeLayout(false);
             this.tp_pistols.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_deagle)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_p250)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_glock)).EndInit();
             this.tp_rifles.ResumeLayout(false);
             this.tp_rifles.PerformLayout();
             this.tp_mps.ResumeLayout(false);
@@ -1962,7 +2007,7 @@
             this.tp_granades.PerformLayout();
             this.tp_gear.ResumeLayout(false);
             this.tp_gear.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_glock)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_dualb)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2137,6 +2182,9 @@
         private System.Windows.Forms.CheckBox cb_kevlarhelm;
         private System.Windows.Forms.Button bt_options;
         private System.Windows.Forms.PictureBox pb_glock;
+        private System.Windows.Forms.PictureBox pb_p250;
+        private System.Windows.Forms.PictureBox pb_deagle;
+        private System.Windows.Forms.PictureBox pb_dualb;
     }
 }
 

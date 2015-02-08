@@ -142,13 +142,14 @@
             this.btn_getcommand = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tp_pistols = new System.Windows.Forms.TabPage();
+            this.pb_dualb = new System.Windows.Forms.PictureBox();
             this.pb_deagle = new System.Windows.Forms.PictureBox();
             this.pb_p250 = new System.Windows.Forms.PictureBox();
             this.pb_glock = new System.Windows.Forms.PictureBox();
             this.cb_usp = new System.Windows.Forms.CheckBox();
             this.cb_p2000 = new System.Windows.Forms.CheckBox();
             this.cb_cz75 = new System.Windows.Forms.CheckBox();
-            this.cb_tecß = new System.Windows.Forms.CheckBox();
+            this.cb_tec9 = new System.Windows.Forms.CheckBox();
             this.cb_dualb = new System.Windows.Forms.CheckBox();
             this.cb_deagle = new System.Windows.Forms.CheckBox();
             this.cb_p250 = new System.Windows.Forms.CheckBox();
@@ -197,9 +198,13 @@
             this.label4 = new System.Windows.Forms.Label();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.bt_options = new System.Windows.Forms.Button();
-            this.pb_dualb = new System.Windows.Forms.PictureBox();
+            this.pb_tec9 = new System.Windows.Forms.PictureBox();
+            this.pb_cz75 = new System.Windows.Forms.PictureBox();
+            this.pb_p2000 = new System.Windows.Forms.PictureBox();
+            this.pb_usp = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tp_pistols.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_dualb)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_deagle)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_p250)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_glock)).BeginInit();
@@ -208,7 +213,10 @@
             this.tp_heavy.SuspendLayout();
             this.tp_granades.SuspendLayout();
             this.tp_gear.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_dualb)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_tec9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_cz75)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_p2000)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_usp)).BeginInit();
             this.SuspendLayout();
             // 
             // button_kp_minus
@@ -1257,11 +1265,15 @@
             this.tp_pistols.Controls.Add(this.pb_dualb);
             this.tp_pistols.Controls.Add(this.pb_deagle);
             this.tp_pistols.Controls.Add(this.pb_p250);
+            this.tp_pistols.Controls.Add(this.pb_usp);
+            this.tp_pistols.Controls.Add(this.pb_p2000);
+            this.tp_pistols.Controls.Add(this.pb_cz75);
+            this.tp_pistols.Controls.Add(this.pb_tec9);
             this.tp_pistols.Controls.Add(this.pb_glock);
             this.tp_pistols.Controls.Add(this.cb_usp);
             this.tp_pistols.Controls.Add(this.cb_p2000);
             this.tp_pistols.Controls.Add(this.cb_cz75);
-            this.tp_pistols.Controls.Add(this.cb_tecß);
+            this.tp_pistols.Controls.Add(this.cb_tec9);
             this.tp_pistols.Controls.Add(this.cb_dualb);
             this.tp_pistols.Controls.Add(this.cb_deagle);
             this.tp_pistols.Controls.Add(this.cb_p250);
@@ -1272,6 +1284,17 @@
             this.tp_pistols.Size = new System.Drawing.Size(627, 321);
             this.tp_pistols.TabIndex = 0;
             this.tp_pistols.Text = "Pistols";
+            // 
+            // pb_dualb
+            // 
+            this.pb_dualb.Image = global::CS_GO_Bind_creator.Properties.Resources.detail_dual_berettas;
+            this.pb_dualb.Location = new System.Drawing.Point(91, 265);
+            this.pb_dualb.Name = "pb_dualb";
+            this.pb_dualb.Size = new System.Drawing.Size(125, 50);
+            this.pb_dualb.TabIndex = 122;
+            this.pb_dualb.TabStop = false;
+            this.pb_dualb.MouseEnter += new System.EventHandler(this.pb_dualb_MouseEnter);
+            this.pb_dualb.MouseLeave += new System.EventHandler(this.pb_dualb_MouseLeave);
             // 
             // pb_deagle
             // 
@@ -1310,7 +1333,7 @@
             // 
             this.cb_usp.AutoSize = true;
             this.cb_usp.Image = global::CS_GO_Bind_creator.Properties.Resources.usp;
-            this.cb_usp.Location = new System.Drawing.Point(540, 268);
+            this.cb_usp.Location = new System.Drawing.Point(540, 263);
             this.cb_usp.Name = "cb_usp";
             this.cb_usp.Size = new System.Drawing.Size(81, 50);
             this.cb_usp.TabIndex = 8;
@@ -1336,15 +1359,15 @@
             this.cb_cz75.TabIndex = 6;
             this.cb_cz75.UseVisualStyleBackColor = true;
             // 
-            // cb_tecß
+            // cb_tec9
             // 
-            this.cb_tecß.AutoSize = true;
-            this.cb_tecß.Image = global::CS_GO_Bind_creator.Properties.Resources.tec9;
-            this.cb_tecß.Location = new System.Drawing.Point(540, 12);
-            this.cb_tecß.Name = "cb_tecß";
-            this.cb_tecß.Size = new System.Drawing.Size(81, 50);
-            this.cb_tecß.TabIndex = 5;
-            this.cb_tecß.UseVisualStyleBackColor = true;
+            this.cb_tec9.AutoSize = true;
+            this.cb_tec9.Image = global::CS_GO_Bind_creator.Properties.Resources.tec9;
+            this.cb_tec9.Location = new System.Drawing.Point(540, 12);
+            this.cb_tec9.Name = "cb_tec9";
+            this.cb_tec9.Size = new System.Drawing.Size(81, 50);
+            this.cb_tec9.TabIndex = 5;
+            this.cb_tec9.UseVisualStyleBackColor = true;
             // 
             // cb_dualb
             // 
@@ -1853,16 +1876,49 @@
             this.bt_options.UseVisualStyleBackColor = true;
             this.bt_options.Click += new System.EventHandler(this.bt_options_Click);
             // 
-            // pb_dualb
+            // pb_tec9
             // 
-            this.pb_dualb.Image = global::CS_GO_Bind_creator.Properties.Resources.detail_dual_berettas;
-            this.pb_dualb.Location = new System.Drawing.Point(91, 265);
-            this.pb_dualb.Name = "pb_dualb";
-            this.pb_dualb.Size = new System.Drawing.Size(125, 50);
-            this.pb_dualb.TabIndex = 122;
-            this.pb_dualb.TabStop = false;
-            this.pb_dualb.MouseEnter += new System.EventHandler(this.pb_dualb_MouseEnter);
-            this.pb_dualb.MouseLeave += new System.EventHandler(this.pb_dualb_MouseLeave);
+            this.pb_tec9.Image = global::CS_GO_Bind_creator.Properties.Resources.detail_tec_9;
+            this.pb_tec9.Location = new System.Drawing.Point(409, 12);
+            this.pb_tec9.Name = "pb_tec9";
+            this.pb_tec9.Size = new System.Drawing.Size(125, 50);
+            this.pb_tec9.TabIndex = 122;
+            this.pb_tec9.TabStop = false;
+            this.pb_tec9.MouseEnter += new System.EventHandler(this.pb_tec9_MouseEnter);
+            this.pb_tec9.MouseLeave += new System.EventHandler(this.pb_tec9_MouseLeave);
+            // 
+            // pb_cz75
+            // 
+            this.pb_cz75.Image = global::CS_GO_Bind_creator.Properties.Resources.detail_cz75;
+            this.pb_cz75.Location = new System.Drawing.Point(409, 94);
+            this.pb_cz75.Name = "pb_cz75";
+            this.pb_cz75.Size = new System.Drawing.Size(125, 50);
+            this.pb_cz75.TabIndex = 122;
+            this.pb_cz75.TabStop = false;
+            this.pb_cz75.MouseEnter += new System.EventHandler(this.pb_cz75_MouseEnter);
+            this.pb_cz75.MouseLeave += new System.EventHandler(this.pb_cz75_MouseLeave);
+            // 
+            // pb_p2000
+            // 
+            this.pb_p2000.Image = global::CS_GO_Bind_creator.Properties.Resources.detail_p2000;
+            this.pb_p2000.Location = new System.Drawing.Point(409, 185);
+            this.pb_p2000.Name = "pb_p2000";
+            this.pb_p2000.Size = new System.Drawing.Size(125, 50);
+            this.pb_p2000.TabIndex = 122;
+            this.pb_p2000.TabStop = false;
+            this.pb_p2000.MouseEnter += new System.EventHandler(this.pb_p2000_MouseEnter);
+            this.pb_p2000.MouseLeave += new System.EventHandler(this.pb_p2000_MouseLeave);
+            // 
+            // pb_usp
+            // 
+            this.pb_usp.Image = global::CS_GO_Bind_creator.Properties.Resources.detail_usp;
+            this.pb_usp.Location = new System.Drawing.Point(409, 265);
+            this.pb_usp.Name = "pb_usp";
+            this.pb_usp.Size = new System.Drawing.Size(125, 50);
+            this.pb_usp.TabIndex = 122;
+            this.pb_usp.TabStop = false;
+            this.pb_usp.MouseEnter += new System.EventHandler(this.pb_usp_MouseEnter);
+            this.pb_usp.MouseLeave += new System.EventHandler(this.pb_usp_MouseLeave);
             // 
             // Form1
             // 
@@ -1994,6 +2050,7 @@
             this.tabControl1.ResumeLayout(false);
             this.tp_pistols.ResumeLayout(false);
             this.tp_pistols.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_dualb)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_deagle)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_p250)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_glock)).EndInit();
@@ -2007,7 +2064,10 @@
             this.tp_granades.PerformLayout();
             this.tp_gear.ResumeLayout(false);
             this.tp_gear.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pb_dualb)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_tec9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_cz75)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_p2000)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_usp)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -2141,7 +2201,7 @@
         private System.Windows.Forms.CheckBox cb_usp;
         private System.Windows.Forms.CheckBox cb_p2000;
         private System.Windows.Forms.CheckBox cb_cz75;
-        private System.Windows.Forms.CheckBox cb_tecß;
+        private System.Windows.Forms.CheckBox cb_tec9;
         private System.Windows.Forms.TextBox tb_key;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TabPage tp_other;
@@ -2185,6 +2245,10 @@
         private System.Windows.Forms.PictureBox pb_p250;
         private System.Windows.Forms.PictureBox pb_deagle;
         private System.Windows.Forms.PictureBox pb_dualb;
+        private System.Windows.Forms.PictureBox pb_usp;
+        private System.Windows.Forms.PictureBox pb_p2000;
+        private System.Windows.Forms.PictureBox pb_cz75;
+        private System.Windows.Forms.PictureBox pb_tec9;
     }
 }
 

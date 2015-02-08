@@ -140,7 +140,7 @@ namespace CS_GO_Bind_creator
                 dualb = true;
             }
 
-            if (cb_tecß.Checked == true)
+            if (cb_tec9.Checked == true)
             {
                 tB_end.Text = "bind " + tb_key.Text + rtb_commands.Text;
                 tec9 = true;
@@ -361,6 +361,42 @@ namespace CS_GO_Bind_creator
         private void pb_dualb_MouseEnter(object sender, EventArgs e)
         {
             pb_dualb.Image = Properties.Resources.detail_dual_berettas_hover;
+        }
+        //Tec 9
+        private void pb_tec9_MouseLeave(object sender, EventArgs e)
+        {
+            pb_tec9.Image = Properties.Resources.detail_tec_9;
+        }
+        private void pb_tec9_MouseEnter(object sender, EventArgs e)
+        {
+            pb_tec9.Image = Properties.Resources.detail_tec_9_hover;
+        }
+        //Cz75
+        private void pb_cz75_MouseLeave(object sender, EventArgs e)
+        {
+            pb_cz75.Image = Properties.Resources.detail_cz75;
+        }
+        private void pb_cz75_MouseEnter(object sender, EventArgs e)
+        {
+            pb_cz75.Image = Properties.Resources.detail_cz75_hover;
+        }
+        //P2000
+        private void pb_p2000_MouseLeave(object sender, EventArgs e)
+        {
+            pb_p2000.Image = Properties.Resources.detail_p2000;
+        }
+        private void pb_p2000_MouseEnter(object sender, EventArgs e)
+        {
+            pb_p2000.Image = Properties.Resources.detail_p2000_hover;
+        }
+        //USP
+        private void pb_usp_MouseLeave(object sender, EventArgs e)
+        {
+            pb_usp.Image = Properties.Resources.detail_usp;
+        }
+        private void pb_usp_MouseEnter(object sender, EventArgs e)
+        {
+            pb_usp.Image = Properties.Resources.detail_usp_hover;
         }
         #endregion
     }

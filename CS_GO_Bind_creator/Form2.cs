@@ -19,6 +19,8 @@ namespace CS_GO_Bind_creator
 
         private void Form2_Load(object sender, EventArgs e)
         {
+            Properties.Settings.Default.Reload();
+
             #region language
             if (Properties.Settings.Default.english == true)
             {
@@ -59,25 +61,29 @@ namespace CS_GO_Bind_creator
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            Properties.Settings.Default["english"] = true;
+            //Properties.Settings.Default["english"] = true;
+            Properties.Settings.Default.english = true;
             Properties.Settings.Default.Save();
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            Properties.Settings.Default["english"] = false;
+            //Properties.Settings.Default["english"] = false;
+            Properties.Settings.Default.english = false;
             Properties.Settings.Default.Save();
         }
 
         private void rb_qwerty_CheckedChanged(object sender, EventArgs e)
         {
-            Properties.Settings.Default["qwerty"] = true;
+            //Properties.Settings.Default["qwerty"] = true;
+            Properties.Settings.Default.qwerty = false;
             Properties.Settings.Default.Save();
         }
 
         private void rb_qwertz_CheckedChanged(object sender, EventArgs e)
         {
-            Properties.Settings.Default["qwerty"] = false;
+            //Properties.Settings.Default["qwerty"] = false;
+            Properties.Settings.Default.qwerty = false;
             Properties.Settings.Default.Save();
         }
     }
